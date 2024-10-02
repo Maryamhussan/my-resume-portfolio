@@ -7,7 +7,7 @@
 .parentcontainer {
   box-sizing: border-box;
 width: 100%;
-height: 739px;
+height: 680px;
 
   display: flex;
   justify-content: center;
@@ -36,6 +36,7 @@ height: 739px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #F4E9CD;
+  text-shadow: 5px 2px #2e2c29;
 }
 
 .main-content p {
@@ -74,4 +75,35 @@ height: 739px;
   object-fit: cover;
   border: 5px solid #6c63ff;
   box-shadow: 10px 10px 35px 10px rgba(236, 230, 230, 0.2);
+}
+
+.header{
+  display: flex;
+  background-color: #031926;
+  height: 50px;
+}
+.header-button{
+  display: flex;
+  color: #fff;
+  text-align: justify;
+  font-size: 23px;
+  justify-content: right;
+  gap: 100px;
+  
+}
+
+.ftr {
+  background-color: #031926;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.ftr:hover{
+  color: #468189;
+}
+.text:hover{
+color: #468189;
 }
